@@ -7,18 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		417949452C72E24600A4DFD9 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417949442C72E24600A4DFD9 /* CoinRowView.swift */; };
+		417949472C72E2AA00A4DFD9 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417949462C72E2AA00A4DFD9 /* PreviewProvider.swift */; };
+		417949492C72EAFA00A4DFD9 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417949482C72EAFA00A4DFD9 /* Double.swift */; };
+		4179494B2C72FA3200A4DFD9 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4179494A2C72FA3200A4DFD9 /* HomeViewModel.swift */; };
+		4179494E2C731EDB00A4DFD9 /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4179494D2C731EDB00A4DFD9 /* CoinDataService.swift */; };
 		41E006E82C6F32BF00F2451F /* BlockWaveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E006E72C6F32BF00F2451F /* BlockWaveApp.swift */; };
 		41E006EA2C6F32BF00F2451F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E006E92C6F32BF00F2451F /* ContentView.swift */; };
-		41E006EC2C6F32C100F2451F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41E006EB2C6F32C100F2451F /* Assets.xcassets */; };
 		41E006EF2C6F32C100F2451F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41E006EE2C6F32C100F2451F /* Preview Assets.xcassets */; };
+		41E006F62C6F33F500F2451F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41E006F52C6F33F500F2451F /* Assets.xcassets */; };
+		41E006F92C6F349100F2451F /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E006F82C6F349100F2451F /* Color.swift */; };
+		41E006FF2C6F3C1500F2451F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E006FE2C6F3C1500F2451F /* HomeView.swift */; };
+		41E007032C6F3D8000F2451F /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E007022C6F3D8000F2451F /* CircleButtonView.swift */; };
+		41E007052C6F433E00F2451F /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E007042C6F433E00F2451F /* CircleButtonAnimationView.swift */; };
+		41E007082C6F4FC700F2451F /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E007072C6F4FC700F2451F /* CoinModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		417949442C72E24600A4DFD9 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
+		417949462C72E2AA00A4DFD9 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
+		417949482C72EAFA00A4DFD9 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		4179494A2C72FA3200A4DFD9 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		4179494D2C731EDB00A4DFD9 /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
 		41E006E42C6F32BF00F2451F /* BlockWave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockWave.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41E006E72C6F32BF00F2451F /* BlockWaveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockWaveApp.swift; sourceTree = "<group>"; };
 		41E006E92C6F32BF00F2451F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		41E006EB2C6F32C100F2451F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41E006EE2C6F32C100F2451F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41E006F52C6F33F500F2451F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Downloads/SwiftUI-Crypto-MVVM-CoreData-Combine-main/SwiftfulCrypto/Assets.xcassets"; sourceTree = "<group>"; };
+		41E006F82C6F349100F2451F /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		41E006FE2C6F3C1500F2451F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		41E007022C6F3D8000F2451F /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
+		41E007042C6F433E00F2451F /* CircleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationView.swift; sourceTree = "<group>"; };
+		41E007072C6F4FC700F2451F /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4179494C2C731EB200A4DFD9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4179494D2C731EDB00A4DFD9 /* CoinDataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		41E006DB2C6F32BF00F2451F = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +79,13 @@
 		41E006E62C6F32BF00F2451F /* BlockWave */ = {
 			isa = PBXGroup;
 			children = (
+				4179494C2C731EB200A4DFD9 /* Services */,
+				41E006F72C6F348300F2451F /* Extensions */,
+				41E007062C6F4FA300F2451F /* Models */,
+				41E006FA2C6F3BD300F2451F /* Core */,
 				41E006E72C6F32BF00F2451F /* BlockWaveApp.swift */,
 				41E006E92C6F32BF00F2451F /* ContentView.swift */,
-				41E006EB2C6F32C100F2451F /* Assets.xcassets */,
+				41E006F52C6F33F500F2451F /* Assets.xcassets */,
 				41E006ED2C6F32C100F2451F /* Preview Content */,
 			);
 			path = BlockWave;
@@ -65,6 +97,76 @@
 				41E006EE2C6F32C100F2451F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		41E006F72C6F348300F2451F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				41E006F82C6F349100F2451F /* Color.swift */,
+				417949462C72E2AA00A4DFD9 /* PreviewProvider.swift */,
+				417949482C72EAFA00A4DFD9 /* Double.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		41E006FA2C6F3BD300F2451F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				41E007002C6F3D5B00F2451F /* Components */,
+				41E006FB2C6F3BE100F2451F /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		41E006FB2C6F3BE100F2451F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				41E006FD2C6F3BF500F2451F /* ViewModels */,
+				41E006FC2C6F3BED00F2451F /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		41E006FC2C6F3BED00F2451F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				41E006FE2C6F3C1500F2451F /* HomeView.swift */,
+				417949442C72E24600A4DFD9 /* CoinRowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		41E006FD2C6F3BF500F2451F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4179494A2C72FA3200A4DFD9 /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		41E007002C6F3D5B00F2451F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				41E007012C6F3D6F00F2451F /* CircleButton */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		41E007012C6F3D6F00F2451F /* CircleButton */ = {
+			isa = PBXGroup;
+			children = (
+				41E007022C6F3D8000F2451F /* CircleButtonView.swift */,
+				41E007042C6F433E00F2451F /* CircleButtonAnimationView.swift */,
+			);
+			path = CircleButton;
+			sourceTree = "<group>";
+		};
+		41E007062C6F4FA300F2451F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				41E007072C6F4FC700F2451F /* CoinModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41E006EF2C6F32C100F2451F /* Preview Assets.xcassets in Resources */,
-				41E006EC2C6F32C100F2451F /* Assets.xcassets in Resources */,
+				41E006F62C6F33F500F2451F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +239,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4179494E2C731EDB00A4DFD9 /* CoinDataService.swift in Sources */,
+				417949452C72E24600A4DFD9 /* CoinRowView.swift in Sources */,
+				4179494B2C72FA3200A4DFD9 /* HomeViewModel.swift in Sources */,
 				41E006EA2C6F32BF00F2451F /* ContentView.swift in Sources */,
+				41E006FF2C6F3C1500F2451F /* HomeView.swift in Sources */,
 				41E006E82C6F32BF00F2451F /* BlockWaveApp.swift in Sources */,
+				41E007032C6F3D8000F2451F /* CircleButtonView.swift in Sources */,
+				41E006F92C6F349100F2451F /* Color.swift in Sources */,
+				41E007052C6F433E00F2451F /* CircleButtonAnimationView.swift in Sources */,
+				417949472C72E2AA00A4DFD9 /* PreviewProvider.swift in Sources */,
+				417949492C72EAFA00A4DFD9 /* Double.swift in Sources */,
+				41E007082C6F4FC700F2451F /* CoinModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +386,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BlockWave/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BlockWave;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +415,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BlockWave/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BlockWave;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

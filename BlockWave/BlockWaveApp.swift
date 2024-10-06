@@ -9,7 +9,9 @@ import SwiftUI
 
 @main
 struct BlockWaveApp: App {
+    
     @StateObject private var vm = HomeViewModel()
+    
     var body: some Scene {
         WindowGroup {
             NavigationView {

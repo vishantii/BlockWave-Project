@@ -29,33 +29,11 @@ class CoinDataService {
 //            "x-cg-pro-api-key": "CG-yLLVs7uyrzux6TdFuppLRAiw"
 //        ]
         
-        coinSubscription = URLSession.shared.dataTaskPublisher(for: url)
-            .subscribe(on: DispatchQueue.global(qos: .default))
-            .tryMap { (output) -> Data in
-                guard let response = output.response as? HTTPURLResponse else {
-                    throw URLError(.badServerResponse)
-                }
-                print("Response status code: \(response.statusCode)")
-                guard response.statusCode >= 200 && response.statusCode < 300 else {
-                    if let data = String(data: output.data, encoding: .utf8) {
-                        print("Server error response: \(data)")
-                    }
-                    throw URLError(.badServerResponse)
-                }
-                return output.data
-            }
-            .receive(on: DispatchQueue.main)
+        coinSubscription = NetworkingManager.download(url: url)
             .decode(type: [CoinModel].self, decoder: JSONDecoder())
-            .sink { (completion) in
-                switch completion {
-                case .finished:
-                    break
-                case .failure(let error):
-                    print("Error: \(error.localizedDescription)")
-                }
-            } receiveValue: { [weak self] (returnedCoins) in
+            .sink(receiveCompletion: NetworkingManager.handleCompletion, receiveValue: { [weak self] (returnedCoins) in
                 self?.allCoins = returnedCoins
                 self?.coinSubscription?.cancel()
-            }
+            })
     }
 }
